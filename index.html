@@ -5,11 +5,11 @@
   const saved = localStorage.getItem("auth");
   if (saved !== "ok") {
     const password = prompt("パスワードを入力してください");
-    if (password === "password") {
+    if (password === "JN9gbs3ulaJ2ADk0") {
       localStorage.setItem("auth", "ok");
-      alert("ログイン成功！");
+      alert("ログイン成功");
     } else {
-      alert("パスワードが違います。");
+      alert("パスワードが違います");
       window.location.href = "https://google.com";
     }
   }
