@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>GHIDAIWORKS-NEWS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  
+<div id="opening">
+  <img src="logo/logo.png" alt="GHIDAIWORKSロゴ" class="logo-fullscreen" />
+</div>
+
+
+  <!-- メインコンテンツ（最初は非表示） -->
+  <div id="main-content">
+
+    <!-- 背景で流れる画像 -->
+    <div id="background-slideshow">
+      <div class="slide" style="background-image: url('images/IMG_0620.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0621.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0688.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0624.jpeg');"></div>
+    </div>
+
+    <header>
+      <h1>GHIDAIWORKS</h1>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">ホーム ▼</button>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">ホーム</a></li>
+          </ul>
+        </nav>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">特設 ▼</button>
+          <ul class="dropdown-menu">
+            <li><a href="special.html">特設</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- 解説セクション -->
+    <section id="intro" class="fade-in">
+      <div class="intro-container">
+         <h2>ニュース</h2>
+        <p>
+          ・作画タイムラプス公開中！<br>
+          <br>
+          ・自主制作アニメーション「ヒルダ物語」仮を制作中。完成予定2026/03/xx<br>
+          <br>
+          ・自主制作アニメーションの本サイト上以外のSNSでの公開を検討中。<br>
+          <br>
+          ・制作プロデューサー募集中(内容:制作スケジュールの管理、作画スタッフの管理など。)
+        </p>
+      </div>
+    </section>
+
+  <!-- スクリプト：オープニング終了後にメイン表示 -->
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('opening').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 3500); // 3.5秒後に切り替え
+    });
+  </script>
+
+  <script src="news.js"></script>
+                    <!-- 特設ページリンクを追加 -->
+        <p class="special-link">
+           <a href="index.html">ホームに戻る</a>
+        </p>
+      </div>
+
+</body>
+</html>

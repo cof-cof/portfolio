@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sp001",
+    "title": "a",
+    "artist": "a",
+    "specialcontent": "specialcontent/lv_0_20250427233759.mp4",
+    "description": "aaa",
+    "thumbnail": "specialcontent/thumbnail1.jpg"
+  },
+  {
+    "id": "sp002",
+    "title": "b",
+    "artist": "b",
+    "specialcontent": "specialcontent/MicrosoftTeams-video.mp4",
+    "description": "bbb",
+    "thumbnail": "specialcontent/thumbnail2.jpg"
+  }
+]

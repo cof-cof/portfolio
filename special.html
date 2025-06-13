@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>GHIDAIWORKS-特設</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- オープニング画面 -->
+  <div id="opening">
+    <img src="logo/logo.png" alt="GHIDAIWORKSロゴ" class="logo-fullscreen" />
+  </div>
+
+  <!-- メインコンテンツ（最初は非表示） -->
+  <div id="main-content" style="display: none;">
+    <!-- 背景スライドショー -->
+    <div id="background-slideshow">
+      <div class="slide" style="background-image: url('images/IMG_0620.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0621.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0688.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0624.jpeg');"></div>
+    </div>
+
+    <header>
+      <h1>GHIDAIWORKS</h1>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">ホーム ▼</button>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">ホーム</a></li>
+            </ul>
+        </nav>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">ニュース ▼</button>
+            <ul class="dropdown-menu">
+              <li><a href="news.html">ニュース</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+      <!-- 解説セクション -->
+    <section id="intro" class="">
+      <div class="intro-container">
+
+    </section>
+    <main id="gallery-section" class="">
+      <input type="text" id="search" placeholder="作品を検索" />
+      <div id="gallery" class="gallery-grid"></div>
+    </main>
+  </div>
+
+  <!-- オープニング後メイン表示制御 -->
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('opening').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 3500);
+    });
+  </script>
+
+  <!-- ギャラリースクリプト -->
+  <script src="specialscript.js"></script>
+      <section id="intro" class=""></section>
+                  <!-- 特設ページリンクを追加 -->
+        <p class="special-link">
+           <a href="index.html">ホームに戻る</a>
+        </p>
+      </div>
+</body>
+</html>

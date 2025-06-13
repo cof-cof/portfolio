@@ -1,0 +1,38 @@
+<!-- detail.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>作品詳細</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .detail-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .detail-image {
+      max-width: 100%;
+      flex: 1 1 300px;
+    }
+    .detail-info {
+      flex: 1 1 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="detail-container">
+    <img id="detail-image" class="detail-image" src="" alt="">
+    <div class="detail-info">
+      <h2 id="detail-title"></h2>
+      <p id="detail-artist"></p>
+      <p id="detail-tags"></p>
+      <p id="detail-description"></p>
+      <p><a href="index.html">← 一覧に戻る</a></p>
+    </div>
+  </div>
+
+  <script src="detail.js"></script>
+</body>
+</html>

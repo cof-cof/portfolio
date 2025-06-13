@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Johan",
+    "artist": "GHIDAI",
+    "image": "images/IMG_0758.png",
+    "tags": ["imageboard", "character","Hilda's Story"],
+    "description": "自主制作アニメ、ヒルダ物語のイメージボード。神経や筋肉、骨までもが植物化してしまう少年ヨハンの絵。五本指の筋肉が根元まで解けてやがて腕まで植物化する。見た目は蔦のようでもあり水のようでもある。触れると冷たくも暖かくもない❛❛平熱❜❜である。副作用というかなんというか、時間が経てば経つほど浸食されていき元に戻れなくなるので戦闘時間が重要になってくる。",
+    "id": "johan"
+  },
+  {
+    "title": "Ijichi Nijika BirthDay_Illust",
+    "artist": "GHIDAI(原作:はまじあき)",
+    "image": "images/伊地知虹夏_誕生日イラスト_完成版.png",
+    "tags": ["birthday", "illustration", "kawaii", "bocchitherock"],
+    "description": "漫画、アニメ ぼっちざろっく！に登場する結束バンドのドラム担当。よく陽キャだと思われているが彼女は特別陽キャではない(友達間では元気な陰キャである)。首を通した大きなリボンは大きさや位置といった点で彼女の過去を象徴するデザインとして非常に優れている。萌えアニメは数がとんでもなく多く、内面的な「気持ちが良い」等といった感情を直に刺激するある種下品な作品がある中で商業誌の世界観を守りつつ設定を固めながら優れたキャラクターデザインを実現した はまじあき先生は評価するべき作家と言える。※これは決して私が伊地知虹夏が好きで贔屓した結果ではない。",
+    "id": "ijichi_nijika_birthday_illust"
+  },
+    {
+    "title": "Johan_Genga",
+    "artist": "GHIDAI",
+    "image": "images/IMG_0620.jpeg",
+    "tags": ["genga", "layout","Hilda's Story"],
+    "description": "自主制作アニメーションのワンカット。私が絵を描き始めた当初から目指していたのがジブリの宮﨑駿さんでした。当初はひたすら「ジブリらしい絵」を描けるようにと毎日絵を描いていました。",
+    "id": "johan_genga"
+  },
+    {
+    "title": "Hilda_Genga",
+    "artist": "GHIDAI",
+    "image": "images/IMG_0621.jpeg",
+    "tags": ["genga", "layout","Hilda's Story"],
+    "description": "自主制作アニメーションのワンカット。宇宙から飛来してきた謎の少女ヒルダ。彼女が蕾のままの鉢を触ると花がぶわっと咲きます。超常現象にも官能的にも見えるこのカットはジブリ宗派の演出を実現できる重要なカットとなります。",
+    "id": "hilda_genga"
+  },
+    {
+    "title": "stone egg",
+    "artist": "GHIDAI",
+    "image": "images/IMG_20250608_223032.jpg",
+    "tags": ["genga", "layout","Hilda's Story"],
+    "description": "少女ヒルダはこの石に乗ってきた。この石の周りには六つの一回り小さい石が並んでおり、左三つの石には赤い目が付いており、右三つには青い目が付いている。日本古事記の国生み神話を彷彿とさせるこの配置、ヒルダはどうやってこの石を起動しこの星に降りてきたのか・・・逃げてきたのか",
+    "id": "stone_egg"
+  },
+  {
+    "title": "Sky and Sea",
+    "artist": "GHIDAI",
+    "image": "images/IMG_0624.jpeg",
+    "tags": ["imageboard", "scenery","Hilda's Story"],
+    "description": "海と空が混ざった星。幼い頃に観た「崖の上のポニョ」の空気を私も作りたいと思い描いたイメージボード。",
+    "id": "sky_and_sea"
+  },
+    {
+    "title": "cave",
+    "artist": "GHIDAI",
+    "image": "images/IMG_20250218_192717.jpg",
+    "tags": ["layout", "scenery","Hilda's Story"],
+    "description": "自主制作アニメーションのワンカット。ヨハンが冒頭に見つけた謎の洞窟。何かを指しているこの空間でヨハンはヒルダと心が繋がり二人は出会うのであった。目というのは古来から神の象徴として描かれてきました。宮﨑監督の作品、ナウシカやonyourmarkにも「目」のデザインは多く登場しています。",
+    "id": "cave"
+  },
+    {
+    "title": "Bike",
+    "artist": "GHIDAI",
+    "image": "images/IMG_20250513_102704.jpg",
+    "tags": ["layout", "mechanic","Hilda's Story"],
+    "description": "",
+    "id": "bike"
+  },
+    {
+    "title": "ImageBoard_03",
+    "artist": "GHIDAI",
+    "image": "images/Image (21).jpg",
+    "tags": ["imageboard", "character","Hilda's Story"],
+    "description": "ヨハンのイメージボード。顔にある奴隷の刻印を隠すために暗闇では仮面を付けている。",
+    "id": "imageboard_03"
+  },
+    {
+    "title": "ImageBoard_02",
+    "artist": "GHIDAI",
+    "image": "images/Image (20).jpg",
+    "tags": ["imageboard", "character","Hilda's Story"],
+    "description": "",
+    "id": "imageboard_02"
+  },
+  {
+    "title": "ImageBoard_0",
+    "artist": "GHIDAI",
+    "image": "images/Image (22).jpg",
+    "tags": ["imageboard", "character","Hilda's Story"],
+    "description": "",
+    "id": "imageboard_0"
+  },
+      {
+    "title": "ImageBoard_01",
+    "artist": "GHIDAI",
+    "image": "images/Image (19).jpg",
+    "tags": ["imageboard", "character","Hilda's Story"],
+    "description": "",
+    "id": "imageboard_01"
+  },
+  {
+    "title": "Johan_Genga2",
+    "artist": "GHIDAI",
+    "image": "images/IMG_0754.jpeg",
+    "tags": ["genga", "layout","Hilda's Story"],
+    "description": "",
+    "id": "johan_genga2"
+  },
+  {
+    "title": "Tibet",
+    "artist": "GHIDAI",
+    "image": "images/Image (7).png",
+    "tags": ["imageboard", "scenery","Hilda's Story"],
+    "description": "",
+    "id": "tibet"
+  },
+  {
+    "title": "Hilda_Genga2",
+    "artist": "GHIDAI",
+    "image": "images/Image (23).jpg",
+    "tags": ["genga", "layout","Hilda's Story"],
+    "description": "",
+    "id": "hilda_genga2"
+  },
+  {
+    "title": "GQuuuuuuX",
+    "artist": "GHIDAI(メカデザイン:山下いくと)",
+    "image": "images/IMG_0630.png",
+    "tags": ["mechanic", "gundam", "gquuuuuux"],
+    "description": "",
+    "id": "gquuuuuux"
+  },
+  {
+    "title": "Shuji・Ito",
+    "artist": "GHIDAI(キャラクターデザイン:竹)",
+    "image": "images/IMG_0628.jpeg",
+    "tags": ["gundam", "character", "gquuuuuux"],
+    "description": "",
+    "id": "shuji_ito"
+  },
+  {
+    "title": "Amate・Yuzuriha",
+    "artist": "GHIDAI(キャラクターデザイン:竹)",
+    "image": "images/IMG_0498.jpeg",
+    "tags": ["gundam", "character", "genga", "gquuuuuux"],
+    "description": "",
+    "id": "amate_yuzuriha"
+  },
+  {
+    "title": "Nekoyashiki mayu Illust",
+    "artist": "GHIDAI(キャラクターデザイン:内田陽子)",
+    "image": "images/Image (8).png",
+    "tags": ["wonderfulprecure", "genga"],
+    "description": "",
+    "id": "nekoyashiki_mayu_illust"
+  },
+  {
+    "title": "",
+    "artist": "GHIDAI",
+    "image": "images/",
+    "tags": ["", ""],
+    "description": "",
+    "id": "untitled"
+  },
+  {
+    "title": "",
+    "artist": "GHIDAI",
+    "image": "images/",
+    "tags": ["", ""],
+    "description": "",
+    "id": "untitled_2"
+  }
+]

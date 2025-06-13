@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>GHIDAIWORKS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  
+<div id="opening">
+  <img src="logo/logo.png" alt="GHIDAIWORKSロゴ" class="logo-fullscreen" />
+</div>
+
+
+  <!-- メインコンテンツ（最初は非表示） -->
+  <div id="main-content">
+
+    <!-- 背景で流れる画像 -->
+    <div id="background-slideshow">
+      <div class="slide" style="background-image: url('images/IMG_0620.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0621.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0688.jpeg');"></div>
+      <div class="slide" style="background-image: url('images/IMG_0624.jpeg');"></div>
+    </div>
+
+    <header>
+      <h1>GHIDAIWORKS</h1>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">特設 ▼</button>
+          <ul class="dropdown-menu">
+            <li><a href="special.html">特設</a></li>
+          </ul>
+        </nav>
+        <nav class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">ニュース ▼</button>
+          <ul class="dropdown-menu">
+            <li><a href="news.html">ニュース</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- 解説セクション -->
+    <section id="intro" class="fade-in">
+      <div class="intro-container">
+        <h2>このサイトについて</h2>
+        <p>
+          宮﨑駿監督に憧れグラフィック映像からアニメーション制作へ路線を変更した私の作品展示ページ。<br>
+          スタジオジブリ長編最新作(2025年時点)「君たちはどう生きるか」に影響を受け、<br>
+          そこから絵を描き始め１年と１０カ月。その期間で生まれた作品達です。
+        </p>
+        <p class="scroll-hint">▼ 下にスクロールすると作品一覧が見られます ▼</p>
+
+          
+      </div>
+    </section>
+
+    <!-- ギャラリーセクション -->
+    <main id="gallery-section" class="fade-in">
+      <input type="text" id="search" placeholder="検索" />
+      <div id="gallery"></div>
+    </main>
+
+  </div>
+
+  <!-- スクリプト：オープニング終了後にメイン表示 -->
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('opening').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 3500); // 3.5秒後に切り替え
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
