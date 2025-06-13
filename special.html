@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <script>
+  const saved = localStorage.getItem("auth");
+  if (saved !== "ok") {
+    alert("先にログインしてください。");
+    window.location.href = "index.html";
+  }
+</script>
+
   <meta charset="UTF-8" />
   <title>GHIDAIWORKS-特設</title>
   <link rel="stylesheet" href="style.css" />

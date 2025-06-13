@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <script>
+  const saved = localStorage.getItem("auth");
+  if (saved !== "ok") {
+    const password = prompt("パスワードを入力してください");
+    if (password === "password") {
+      localStorage.setItem("auth", "ok");
+      alert("ログイン成功！");
+    } else {
+      alert("パスワードが違います。");
+      window.location.href = "https://google.com";
+    }
+  }
+</script>
+
   <meta charset="UTF-8" />
   <title>GHIDAIWORKS</title>
   <link rel="stylesheet" href="style.css" />
